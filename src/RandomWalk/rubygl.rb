@@ -106,7 +106,6 @@ class ThreeDimentionAnimation
 
 			int•ûŒü = rand() * 360;
 
-=begin
 			if int•ûŒü < 90 then
 				redo
 			end
@@ -114,7 +113,6 @@ class ThreeDimentionAnimation
 			if int•ûŒü > 270 then
 				redo
 			end
-=end
 
 			@dbl‹ÂŠp[intIndex] = @dbl‹ÂŠp[intIndex-1] + dbl‹——£ * Math.cos( getRadian(int•ûŒü) );
 			@dbl˜ëŠp[intIndex] = @dbl˜ëŠp[intIndex-1] + dbl‹——£ * Math.sin( getRadian(int•ûŒü) );
